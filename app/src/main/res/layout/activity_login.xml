@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@android:color/darker_gray"
+    android:paddingTop="16dp"
+    tools:context="com.kiit.viper.grapevine.LoginActivity">
+    <LinearLayout
+        android:layout_gravity="center"
+        android:id="@+id/email_login_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/logo"
+            />
+        <TextView
+            android:id="@+id/logotext"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="30dp"
+            android:textSize="35dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grape Vine "/>
+
+
+        <com.google.android.gms.common.SignInButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/googleButton"
+            android:layout_marginTop="23dp"
+            android:layout_gravity="center"
+            android:layout_below="@+id/cardView"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true">
+
+        </com.google.android.gms.common.SignInButton>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Skip Login >"
+            android:onClick="skipLogin"
+            android:textColor="@color/colorAccent"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

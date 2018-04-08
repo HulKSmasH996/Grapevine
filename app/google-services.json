@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "264020917220",
+    "firebase_url": "https://grapevine-66482.firebaseio.com",
+    "project_id": "grapevine-66482",
+    "storage_bucket": "grapevine-66482.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:264020917220:android:e23120d18427c8a7",
+        "android_client_info": {
+          "package_name": "com.kiit.viper.grapevine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "264020917220-ipc31kc2qirkdl67taf22klgldoqlprh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kiit.viper.grapevine",
+            "certificate_hash": "4b526fa75b4a2a792168e22d50423e5a110c7d51"
+          }
+        },
+        {
+          "client_id": "264020917220-8v0mkriteu5vqf22dlvag4bmdv0gk4h6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDgatkRKs8a9jILjVPpCEqOV9Kw8t6m84"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "264020917220-8v0mkriteu5vqf22dlvag4bmdv0gk4h6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
